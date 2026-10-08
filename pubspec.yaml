@@ -1,0 +1,35 @@
+name: tovar_boshqaruv
+description: Offline tovar boshqaruv ilovasi (Android va Windows)
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.3
+  sqflite_common_ffi: ^2.3.3
+  sqlite3_flutter_libs: ^0.5.24
+  path_provider: ^2.1.4
+  path: ^1.9.0
+  image_picker: ^1.1.2
+  file_picker: ^8.1.2
+  image: ^4.2.0
+  mobile_scanner: ^5.2.3
+  qr_flutter: ^4.1.0
+  barcode_widget: ^2.0.4
+  pdf: ^3.11.1
+  printing: ^5.13.2
+  archive: ^3.6.1
+  share_plus: ^10.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/fonts/
